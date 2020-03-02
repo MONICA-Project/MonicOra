@@ -5,10 +5,10 @@ MonicOra GW is an application GW for Smart Glasses made by Optinvent.
 
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
 
-## Getting Started
-<!-- Instruction to make the project up and running. -->
 
 ## Quickstart for first use
+<!-- Instruction to make the project up and running. -->
+
 ### Setting up the server
 a) Run RSAKeyGenerator once. It will generate two RSA key.
 b) Put opt_privKey.key with MonicOraServer.jar in the same folder.
@@ -16,6 +16,7 @@ c) Run MonicOraServer (you can also use java –jar MonicOraServer.jar in comman
 messages).
 d) Close the server. You know have generated config_MonicOra.txt and MonicaServerRes.
 e) Edit config_MonicOra.txt (keep the formatting in place): change PORT and IP according to your network.
+
 ### Setting up the App
 a) Install the app according to the How_to_install_the_app.pdf (ADB or Android Studio)
 b) Check that Wi-Fi is connected
@@ -30,10 +31,10 @@ h) Put the opt_pubKey.key generated in 1)a) inside the Document folder of the gl
 a) Check on the splashscreen if the defined name and the IP/PORT is correct.
 b) Check possible error message and report to the next slide.
 
-
 The project documentation is available on the [Wiki](https://github.com/MONICA-Project/template/wiki).
 
 ## Error handling - FAQ Server
+
 ### How can I know my IP / PORT ?
 Running on a local network, your IP can be accessed in various way. It usually start with 192.168. or 172.16. On windows, Press Windows Key + R, type cmd,
 execute. Inside the console, type ipconfig. On linux, type ifconfig on a terminal. The port represents somehow where the data will be delivered on this IP, some firewall prevent some port to be used, or some application can already use this port. You can choose default (9999) or select another one.
@@ -44,7 +45,6 @@ java application through command line to see the logs (java –jar MonicOraServe
 
 ### The error « Can’t init the server » is shown:
 This error happens when the app can’t bind the server on the given parameter : Check that the IP/PORT values are OK.
-
 
 ## Error handling – FAQ App
 ### Getting the NO ENCRYPTION KEY :
