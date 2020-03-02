@@ -62,36 +62,64 @@ Either the app has closed during initialization, either the public key is not re
 
 
 
-## Deployment
+## How to install APP on the ORA-2
 <!-- Deployment/Installation instructions. If this is software library, change this section to "Usage" and give usage examples -->
 
-### Docker
-To run the latest version of foobar:
-```bash
-docker run -p 8080:80 foobar
-```
+### Recommendation
 
-## Development
-<!-- Developer instructions. -->
+As using the touchpad and wearing the glasses for configuration is not convenient, we recommend to use the Vysor application that let you mirror the screen and interact through the mouse and keyboard. No purchase is required : https://www.vysor.io/
 
-### Prerequisite
-This projects depends on xyz. Installation instructions are available [here](https://xyz.com)
+The settings and storage menu are accessible by swipping at top and left corner :
 
-On Debian:
-```bash
-apt install xyz
-```
+Settings -> Developer option:
+USB Debugging = « On »
+Verify App over USB = « Off » (should be unnecessary
+but still try with more permission).
+Settings -> Location :
+Mode set to « High Accuracy ».
 
-### Test
-Use tests.sh to run unit tests:
-```bash
-sh tests.sh
-```
+### Check the storage of the device
 
-### Build
+In order to install the app, a minimum storage capacity is needed.
+We recommend to uninstall app that you don’t use, so that during the installation, 100 MB free space are available.
 
-```bash
-g++ -o app app.cpp
+### Method 1 : Android Studio - Recommended
+If you have Android Studio installed, you can easly open the MonicOra .apk and install it :
+
+
+
+Connect the ORA-2 on USB, the device must be turned on. Press the play button and select Chipsip Ora2.
+
+
+
+If no error is shown, the application is now installed on the device and should be launched.
+If any errors shows up, you can try to correct what went wrong or send us the error message, a bunch of possible issues are described later.
+
+### Method 2 – Using ADB
+Connect the device on USB
+Check the PATH of your machine so that it can access the adb command.
+Check on the glass the permission
+Use a terminal to run the command : adb install
+PATH_TO_THE_APP/Monicora_App.apk
+On Windows, using cmd or powershell :
+
+
+### Possible errors
+We found that because lack of free spaces even if the app is not big enough, installation may fail. Free some space may solve the problem.
+Check permissions, so that the device allows debug mode.
+Check your Android Studio Version.
+Check your ADB version.
+
+
+### Reseting to factory for cleanest installation
+On the settings menu, find and select Factory Reset. Check Reset with SD CARD.
+Wait 30s.
+Restart the device to complete the reset.
+Retry the installation of the App.
+If errors persist, please attach the error message.
+
+
+
 ```
 
 ## Contributing
