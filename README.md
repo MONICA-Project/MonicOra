@@ -120,7 +120,6 @@ If errors persist, please attach the error message.
 
 
 
-```
 
 ## Contributing
 Contributions are welcome. 
