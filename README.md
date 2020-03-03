@@ -1,6 +1,7 @@
 # MonicOra GW
 <!-- Short description of the project. -->
-
+![MonicOra](https://github.com/jbenadik/MonicOra/blob/master/Pictures/MonicOra.png)
+![Optinvent](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Optinvent.png)
 MonicOra GW is an application GW for Smart Glasses made by Optinvent.
 
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
