@@ -25,6 +25,7 @@ d) Close the server. You know have generated config_MonicOra.txt and MonicaServe
 
 e) Edit config_MonicOra.txt (keep the formatting in place): change PORT and IP according to your network.
 
+##
 ## Setting up the App
 a) Install the app according to the How_to_install_the_app.pdf (ADB or Android Studio)
 
@@ -42,6 +43,7 @@ g) Press Make Config and save it inside the Document folder of the glasses.
 
 h) Put the opt_pubKey.key generated in 1)a) inside the Document folder of the glasses.
 
+##
 ## Run the Server and the App
 a) Check on the splashscreen if the defined name and the IP/PORT is correct.
 
@@ -86,17 +88,21 @@ Either the app has closed during initialization, either the public key is not re
 
 ## Recommendation
 
-As using the touchpad and wearing the glasses for configuration is not convenient, we recommend to use the Vysor application that let you mirror the screen and interact through the mouse and keyboard. No purchase is required : https://www.vysor.io/
+As using the touchpad and wearing the glasses for configuration is not convenient, we recommend to use the Vysor application that let you mirror the screen and interact through the mouse and keyboard. 
+No purchase is required : https://www.vysor.io/
 
 The settings and storage menu are accessible by swipping at top and left corner :
 
 ![Storage_menu](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Storage_menu.png)
 
 Settings -> Developer option:
+
 USB Debugging = « On »
-Verify App over USB = « Off » (should be unnecessary
-but still try with more permission).
+
+Verify App over USB = « Off » (should be unnecessary but still try with more permission).
+
 Settings -> Location :
+
 Mode set to « High Accuracy ».
 
 ![Settings](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Settings.png)
@@ -131,10 +137,15 @@ If any errors shows up, you can try to correct what went wrong or send us the er
 
 ## Method 2 – Using ADB
 Connect the device on USB
+
 Check the PATH of your machine so that it can access the adb command.
+
 Check on the glass the permission
+
 Use a terminal to run the command : adb install
+
 PATH_TO_THE_APP/Monicora_App.apk
+
 On Windows, using cmd or powershell :
 
 ![PowerShell](https://github.com/jbenadik/MonicOra/blob/master/Pictures/PowerShell.png)
@@ -142,11 +153,14 @@ On Windows, using cmd or powershell :
 # 
 # Possible errors
 We found that because lack of free spaces even if the app is not big enough, installation may fail. Free some space may solve the problem.
+
 Check permissions, so that the device allows debug mode.
+
 Check your Android Studio Version.
+
 Check your ADB version.
 
-
+## 
 ## Reseting to factory for cleanest installation
 
 ![Resetting](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Resetting.png)
@@ -157,11 +171,13 @@ Restart the device to complete the reset.
 Retry the installation of the App.
 If errors persist, please attach the error message.
 
+##
 ## Contributing
 Contributions are welcome. 
 
 Please fork, make your changes, and submit a pull request. For major changes, please open an issue first and discuss it with the other authors.
 
+##
 ## Affiliation
 ![MONICA](https://github.com/MONICA-Project/template/raw/master/monica.png)  
 This work is supported by the European Commission through the [MONICA H2020 PROJECT](https://www.monica-project.eu) under grant agreement No 732350.
