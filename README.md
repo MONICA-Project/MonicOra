@@ -9,10 +9,11 @@ MonicOra GW is an application GW for Smart Glasses made by Optinvent.
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
 
 
-## Quickstart for first use
+
+# Quickstart for first use
 <!-- Instruction to make the project up and running. -->
 
-### Setting up the server
+## Setting up the server
 a) Run RSAKeyGenerator once. It will generate two RSA key.
 b) Put opt_privKey.key with MonicOraServer.jar in the same folder.
 c) Run MonicOraServer (you can also use java –jar MonicOraServer.jar in command line so it generate debug
@@ -20,7 +21,7 @@ messages).
 d) Close the server. You know have generated config_MonicOra.txt and MonicaServerRes.
 e) Edit config_MonicOra.txt (keep the formatting in place): change PORT and IP according to your network.
 
-### Setting up the App
+## Setting up the App
 a) Install the app according to the How_to_install_the_app.pdf (ADB or Android Studio)
 b) Check that Wi-Fi is connected
 c) Check that Location is activated
@@ -30,13 +31,16 @@ f) Connect the glasses over USB, and on the glasses select in the top-left corne
 g) Press Make Config and save it inside the Document folder of the glasses.
 h) Put the opt_pubKey.key generated in 1)a) inside the Document folder of the glasses.
 
-### Run the Server and the App
+## Run the Server and the App
 a) Check on the splashscreen if the defined name and the IP/PORT is correct.
 b) Check possible error message and report to the next slide.
 
 The project documentation is available on the [Wiki](https://github.com/MONICA-Project/template/wiki).
 
-## Error handling - FAQ Server
+
+
+# Error handling
+## - FAQ Server
 
 ### How can I know my IP / PORT ?
 Running on a local network, your IP can be accessed in various way. It usually start with 192.168. or 172.16. On windows, Press Windows Key + R, type cmd,
@@ -49,7 +53,9 @@ java application through command line to see the logs (java –jar MonicOraServe
 ### The error « Can’t init the server » is shown:
 This error happens when the app can’t bind the server on the given parameter : Check that the IP/PORT values are OK.
 
-## Error handling – FAQ App
+
+# Error handling
+## – FAQ App
 ### Getting the NO ENCRYPTION KEY :
 This could be caused because the permission to access storage directory is not set or because the opt_pubkey.key file is not found.
 
@@ -65,10 +71,10 @@ Either the app has closed during initialization, either the public key is not re
 
 
 
-## How to install APP on the ORA-2
+# How to install APP on the ORA-2
 <!-- Deployment/Installation instructions. If this is software library, change this section to "Usage" and give usage examples -->
 
-### Recommendation
+## Recommendation
 
 As using the touchpad and wearing the glasses for configuration is not convenient, we recommend to use the Vysor application that let you mirror the screen and interact through the mouse and keyboard. No purchase is required : https://www.vysor.io/
 
@@ -92,7 +98,8 @@ We recommend to uninstall app that you don’t use, so that during the installat
 
 ![Internal_storage](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Internal_storage.png)
 
-### Method 1 : Android Studio - Recommended
+
+## Method 1 : Android Studio - Recommended
 If you have Android Studio installed, you can easly open the MonicOra .apk and install it :
 
 ![Android_studio](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Android_studio.png)
@@ -112,7 +119,7 @@ Connect the ORA-2 on USB, the device must be turned on. Press the play button an
 If no error is shown, the application is now installed on the device and should be launched.
 If any errors shows up, you can try to correct what went wrong or send us the error message, a bunch of possible issues are described later.
 
-### Method 2 – Using ADB
+## Method 2 – Using ADB
 Connect the device on USB
 Check the PATH of your machine so that it can access the adb command.
 Check on the glass the permission
@@ -122,14 +129,15 @@ On Windows, using cmd or powershell :
 
 ![PowerShell](https://github.com/jbenadik/MonicOra/blob/master/Pictures/PowerShell.png)
 
-### Possible errors
+
+# Possible errors
 We found that because lack of free spaces even if the app is not big enough, installation may fail. Free some space may solve the problem.
 Check permissions, so that the device allows debug mode.
 Check your Android Studio Version.
 Check your ADB version.
 
 
-### Reseting to factory for cleanest installation
+## Reseting to factory for cleanest installation
 
 ![Resetting](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Resetting.png)
 
