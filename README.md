@@ -75,7 +75,7 @@ As using the touchpad and wearing the glasses for configuration is not convenien
 The settings and storage menu are accessible by swipping at top and left corner :
 
 ![Storage_menu](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Storage_menu.png)
-![Settings](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Settings.png)
+
 Settings -> Developer option:
 USB Debugging = « On »
 Verify App over USB = « Off » (should be unnecessary
@@ -83,20 +83,24 @@ but still try with more permission).
 Settings -> Location :
 Mode set to « High Accuracy ».
 
+![Settings](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Settings.png)
+
 ### Check the storage of the device
 
 In order to install the app, a minimum storage capacity is needed.
 We recommend to uninstall app that you don’t use, so that during the installation, 100 MB free space are available.
 
 ![Internal_storage](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Internal_storage.png)
+
 ### Method 1 : Android Studio - Recommended
 If you have Android Studio installed, you can easly open the MonicOra .apk and install it :
 
 ![Android_studio](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Android_studio.png)
 
 Find and select the MonicOra_App.apk
+
 ![Select_APK](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Select_APK.png)
-96
+
 If asked, select Create a new folder for a clean installation.
 
 ![Create_new_folder](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Create_new_folder.png)
@@ -126,7 +130,9 @@ Check your ADB version.
 
 
 ### Reseting to factory for cleanest installation
+
 ![Resetting](https://github.com/jbenadik/MonicOra/blob/master/Pictures/Resetting.png)
+
 On the settings menu, find and select Factory Reset. Check Reset with SD CARD.
 Wait 30s.
 Restart the device to complete the reset.
