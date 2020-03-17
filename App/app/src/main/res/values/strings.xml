@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BTControllerDebug</string>
+    <string name="C1Pred1"> Drunk people here</string>
+    <string name="C1Pred2"> Fighting here</string>
+    <string name="C1Pred3"> Carefull, stealing here</string>
+    <string name="C1Pred4"> Need rescue medic</string>
+    <string name="C1Pred5">C1 - Predefined message 5</string>
+    <string name="C1Pred6">C1 - Predefined message 6</string>
+    <string name="C1Pred7">C1 - Predefined message 7</string>
+    <string name="C1Pred8">C1 - Predefined message 8 + big messages incomming to see fitting</string>
+    <string name="C1Pred9">C1 - Predefined message 9</string>
+    <string name="C1Pred10">C1 - Predefined message 10</string>
+    
+    <string name="C2Pred1">C2 - Predefined message 1</string>
+    <string name="C2Pred2">C2 - Predefined message 2</string>
+    <string name="C2Pred3">C2 - Predefined message 3</string>
+    <string name="C2Pred4">C2 - Predefined message 4</string>
+    <string name="C2Pred5">C2 - Predefined message 5</string>
+    <string name="C2Pred6">C2 - Predefined message 6</string>
+    <string name="C2Pred7">C2 - Predefined message 7</string>
+    <string name="C2Pred8">C2 - Predefined message 8</string>
+    <string name="C2Pred9">C2 - Predefined message 9</string>
+    <string name="C2Pred10">C2 - Predefined message 10</string>
+
+    <string name="Cat1">Cat 1</string>
+    <string name="Cat2">Cat 2</string>
+
+</resources>
